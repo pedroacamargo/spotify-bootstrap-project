@@ -46,6 +46,10 @@ nav {
     height: 100vh;
 }
 
+.capa {
+    text-align: center;
+}
+
 .btn-purple {
     background-color: #7c25f8; color: white;
     border: 1px solid white;
