@@ -6,6 +6,7 @@ body {
                       linear-gradient(45deg, rgb(251, 9, 199),rgb(34, 0, 255));
     background-attachment: fixed;
     background-repeat: repeat;
+    overflow-x: hidden;
     
 }
 
@@ -69,9 +70,14 @@ nav {
         font-size: 3em;
     }
 }
+
 @media (min-width: 768px) and (max-width:991.98px) {
     h1 {
         font-size: 4em;
+    }
+
+    .iphones {
+        margin-top: -30px;
     }
 }
 @media (min-width: 992px) and (max-width:1199.98px) {
@@ -91,4 +97,52 @@ nav {
 
 .purple {
     color: #7c25f8;
+}
+
+
+#recursos h2, h3 {
+    color:#9bf0e1;
+}
+
+.iphones {
+    -ms-transform: rotate(30deg) translateY(0);
+    -webkit-transform: rotate(30deg) translateY(0);
+    transform: rotate(30deg) translateY(0);
+    padding-left: 80px;
+    margin-top: 30px;
+}
+@media (min-width: 768px) and (max-width:991.98px) {
+    .iphones {
+        margin-top: -30px;
+    }
+}
+
+
+footer {
+    position: relative;
+}
+
+footer h6 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav li a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer .navbar-nav li a:hover {
+    color: #9b809b;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
 }
