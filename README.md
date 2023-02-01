@@ -1,4 +1,4 @@
-# spotify-Bootstrap-project
+# Spotify Clone
 
 <p>This website was created in the course "Desenvolvimento Web Completo" at Udemy. It's the Spotify landing page and there's no interactivity, just Front End features.</p>
 
